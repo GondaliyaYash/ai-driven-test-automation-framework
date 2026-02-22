@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Positive_Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Positive_Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 22 19:00:04 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>171 seconds (171393 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_002_NavigateToProducts()'><b>TC_POS_002_NavigateToProducts</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_002 - Verify navigation to Products page</td>
+<td></td>
+<td>3</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_001_VerifyHomepageLoads()'><b>TC_POS_001_VerifyHomepageLoads</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_001 - Verify homepage loads with logo and nav links</td>
+<td></td>
+<td>0</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_006_VerifyCartQuantity()'><b>TC_POS_006_VerifyCartQuantity</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_006 - Verify cart shows correct quantity</td>
+<td></td>
+<td>6</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_008_DeliveryAddressPreFilled()'><b>TC_POS_008_DeliveryAddressPreFilled</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_008 - Delivery address pre-filled at checkout</td>
+<td></td>
+<td>15</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_003_SearchProduct()'><b>TC_POS_003_SearchProduct</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_003 - Search for a product by name</td>
+<td></td>
+<td>8</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_004_ViewProductDetails()'><b>TC_POS_004_ViewProductDetails</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_004 - View detailed product information</td>
+<td></td>
+<td>7</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_005_AddProductToCart()'><b>TC_POS_005_AddProductToCart</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_005 - Add a product to cart from detail page</td>
+<td></td>
+<td>6</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_010_CompletePurchaseFlow()'><b>TC_POS_010_CompletePurchaseFlow</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_010 - Complete end-to-end purchase flow</td>
+<td></td>
+<td>26</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_007_ProceedToCheckout()'><b>TC_POS_007_ProceedToCheckout</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_007 - Logged-in user proceeds to checkout</td>
+<td></td>
+<td>15</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+<tr>
+<td title='tests.PositiveTests.TC_POS_009_PaymentPageLoads()'><b>TC_POS_009_PaymentPageLoads</b><br>Test class: tests.PositiveTests<br>Test method: TC_POS_009 - Payment page loads after placing order</td>
+<td></td>
+<td>20</td>
+<td>tests.PositiveTests@45c7e403</td></tr>
+</table><p>
+</body>
+</html>

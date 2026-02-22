@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-22T19:00:04 IST" name="AutomationExercise_Test_Suite" finished-at="2026-02-22T19:06:28 IST" duration-ms="384195">
+    <groups>
+    </groups>
+    <test started-at="2026-02-22T19:00:04 IST" name="Positive_Tests" finished-at="2026-02-22T19:02:55 IST" duration-ms="171393">
+      <class name="tests.PositiveTests">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:04 IST" name="setupDriver" finished-at="2026-02-22T19:00:10 IST" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_001_VerifyHomepageLoads()[pri:1, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:10 IST" name="TC_POS_001_VerifyHomepageLoads" description="TC_POS_001 - Verify homepage loads with logo and nav links" finished-at="2026-02-22T19:00:10 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_001_VerifyHomepageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:10 IST" name="tearDown" finished-at="2026-02-22T19:00:11 IST" duration-ms="707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_001_VerifyHomepageLoads status=SUCCESS method=PositiveTests.TC_POS_001_VerifyHomepageLoads()[pri:1, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:11 IST" name="setupDriver" finished-at="2026-02-22T19:00:15 IST" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_002_NavigateToProducts()[pri:2, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:15 IST" name="TC_POS_002_NavigateToProducts" description="TC_POS_002 - Verify navigation to Products page" finished-at="2026-02-22T19:00:18 IST" duration-ms="3335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_002_NavigateToProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:18 IST" name="tearDown" finished-at="2026-02-22T19:00:19 IST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_002_NavigateToProducts status=SUCCESS method=PositiveTests.TC_POS_002_NavigateToProducts()[pri:2, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:19 IST" name="setupDriver" finished-at="2026-02-22T19:00:24 IST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_003_SearchProduct()[pri:3, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:24 IST" name="TC_POS_003_SearchProduct" description="TC_POS_003 - Search for a product by name" finished-at="2026-02-22T19:00:32 IST" duration-ms="8447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_003_SearchProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:32 IST" name="tearDown" finished-at="2026-02-22T19:00:32 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_003_SearchProduct status=SUCCESS method=PositiveTests.TC_POS_003_SearchProduct()[pri:3, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:32 IST" name="setupDriver" finished-at="2026-02-22T19:00:36 IST" duration-ms="4007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_004_ViewProductDetails()[pri:4, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:36 IST" name="TC_POS_004_ViewProductDetails" description="TC_POS_004 - View detailed product information" finished-at="2026-02-22T19:00:44 IST" duration-ms="7767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_004_ViewProductDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:44 IST" name="tearDown" finished-at="2026-02-22T19:00:44 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_004_ViewProductDetails status=SUCCESS method=PositiveTests.TC_POS_004_ViewProductDetails()[pri:4, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:44 IST" name="setupDriver" finished-at="2026-02-22T19:00:49 IST" duration-ms="4418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_005_AddProductToCart()[pri:5, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:49 IST" name="TC_POS_005_AddProductToCart" description="TC_POS_005 - Add a product to cart from detail page" finished-at="2026-02-22T19:00:55 IST" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_005_AddProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:55 IST" name="tearDown" finished-at="2026-02-22T19:00:56 IST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_005_AddProductToCart status=SUCCESS method=PositiveTests.TC_POS_005_AddProductToCart()[pri:5, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:00:56 IST" name="setupDriver" finished-at="2026-02-22T19:01:00 IST" duration-ms="4663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_006_VerifyCartQuantity()[pri:6, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:00 IST" name="TC_POS_006_VerifyCartQuantity" description="TC_POS_006 - Verify cart shows correct quantity" finished-at="2026-02-22T19:01:07 IST" duration-ms="6602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_006_VerifyCartQuantity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:07 IST" name="tearDown" finished-at="2026-02-22T19:01:07 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_006_VerifyCartQuantity status=SUCCESS method=PositiveTests.TC_POS_006_VerifyCartQuantity()[pri:6, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:07 IST" name="setupDriver" finished-at="2026-02-22T19:01:15 IST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_007_ProceedToCheckout()[pri:7, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:15 IST" name="TC_POS_007_ProceedToCheckout" description="TC_POS_007 - Logged-in user proceeds to checkout" finished-at="2026-02-22T19:01:30 IST" duration-ms="15490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_007_ProceedToCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:30 IST" name="tearDown" finished-at="2026-02-22T19:01:31 IST" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_007_ProceedToCheckout status=SUCCESS method=PositiveTests.TC_POS_007_ProceedToCheckout()[pri:7, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:31 IST" name="setupDriver" finished-at="2026-02-22T19:01:36 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_008_DeliveryAddressPreFilled()[pri:8, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:36 IST" name="TC_POS_008_DeliveryAddressPreFilled" description="TC_POS_008 - Delivery address pre-filled at checkout" finished-at="2026-02-22T19:01:51 IST" duration-ms="15707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_008_DeliveryAddressPreFilled -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:51 IST" name="tearDown" finished-at="2026-02-22T19:01:52 IST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_008_DeliveryAddressPreFilled status=SUCCESS method=PositiveTests.TC_POS_008_DeliveryAddressPreFilled()[pri:8, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:01:52 IST" name="setupDriver" finished-at="2026-02-22T19:02:01 IST" duration-ms="9772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_009_PaymentPageLoads()[pri:9, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:02:01 IST" name="TC_POS_009_PaymentPageLoads" description="TC_POS_009 - Payment page loads after placing order" finished-at="2026-02-22T19:02:22 IST" duration-ms="20487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_009_PaymentPageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:02:22 IST" name="tearDown" finished-at="2026-02-22T19:02:22 IST" duration-ms="419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_009_PaymentPageLoads status=SUCCESS method=PositiveTests.TC_POS_009_PaymentPageLoads()[pri:9, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:02:22 IST" name="setupDriver" finished-at="2026-02-22T19:02:28 IST" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_POS_010_CompletePurchaseFlow()[pri:10, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:02:28 IST" name="TC_POS_010_CompletePurchaseFlow" description="TC_POS_010 - Complete end-to-end purchase flow" finished-at="2026-02-22T19:02:55 IST" duration-ms="26720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POS_010_CompletePurchaseFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PositiveTests@45c7e403]" started-at="2026-02-22T19:02:55 IST" name="tearDown" finished-at="2026-02-22T19:02:55 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_POS_010_CompletePurchaseFlow status=SUCCESS method=PositiveTests.TC_POS_010_CompletePurchaseFlow()[pri:10, instance:tests.PositiveTests@45c7e403] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PositiveTests -->
+    </test> <!-- Positive_Tests -->
+    <test started-at="2026-02-22T19:02:55 IST" name="Negative_Tests" finished-at="2026-02-22T19:05:04 IST" duration-ms="128484">
+      <class name="tests.NegativeTests">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:02:55 IST" name="setupDriver" finished-at="2026-02-22T19:03:00 IST" duration-ms="4968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_001_LoginWithInvalidCredentials()[pri:1, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:00 IST" name="TC_NEG_001_LoginWithInvalidCredentials" description="TC_NEG_001 - Login fails with invalid credentials" finished-at="2026-02-22T19:03:06 IST" duration-ms="5922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_001_LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:06 IST" name="tearDown" finished-at="2026-02-22T19:03:06 IST" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_001_LoginWithInvalidCredentials status=SUCCESS method=NegativeTests.TC_NEG_001_LoginWithInvalidCredentials()[pri:1, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:06 IST" name="setupDriver" finished-at="2026-02-22T19:03:11 IST" duration-ms="4937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_002_LoginWithEmptyEmail()[pri:2, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:11 IST" name="TC_NEG_002_LoginWithEmptyEmail" description="TC_NEG_002 - Login fails with empty email field" finished-at="2026-02-22T19:03:15 IST" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_002_LoginWithEmptyEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:15 IST" name="tearDown" finished-at="2026-02-22T19:03:15 IST" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_002_LoginWithEmptyEmail status=SUCCESS method=NegativeTests.TC_NEG_002_LoginWithEmptyEmail()[pri:2, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:15 IST" name="setupDriver" finished-at="2026-02-22T19:03:20 IST" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_003_LoginWithEmptyPassword()[pri:3, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:20 IST" name="TC_NEG_003_LoginWithEmptyPassword" description="TC_NEG_003 - Login fails with empty password field" finished-at="2026-02-22T19:03:23 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_003_LoginWithEmptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:23 IST" name="tearDown" finished-at="2026-02-22T19:03:23 IST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_003_LoginWithEmptyPassword status=SUCCESS method=NegativeTests.TC_NEG_003_LoginWithEmptyPassword()[pri:3, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:23 IST" name="setupDriver" finished-at="2026-02-22T19:03:28 IST" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_004_RegisterWithExistingEmail()[pri:4, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:28 IST" name="TC_NEG_004_RegisterWithExistingEmail" description="TC_NEG_004 - Signup fails with already registered email" finished-at="2026-02-22T19:03:34 IST" duration-ms="5987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_004_RegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:34 IST" name="tearDown" finished-at="2026-02-22T19:03:34 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_004_RegisterWithExistingEmail status=SUCCESS method=NegativeTests.TC_NEG_004_RegisterWithExistingEmail()[pri:4, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:34 IST" name="setupDriver" finished-at="2026-02-22T19:03:39 IST" duration-ms="4471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_005_SearchNonExistentProduct()[pri:5, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:39 IST" name="TC_NEG_005_SearchNonExistentProduct" description="TC_NEG_005 - Search returns no results for invalid term" finished-at="2026-02-22T19:03:56 IST" duration-ms="16866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_005_SearchNonExistentProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:56 IST" name="tearDown" finished-at="2026-02-22T19:03:56 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_005_SearchNonExistentProduct status=SUCCESS method=NegativeTests.TC_NEG_005_SearchNonExistentProduct()[pri:5, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:03:56 IST" name="setupDriver" finished-at="2026-02-22T19:04:04 IST" duration-ms="8247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_006_GuestCheckoutRequiresLogin()[pri:6, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:04 IST" name="TC_NEG_006_GuestCheckoutRequiresLogin" description="TC_NEG_006 - Guest user checkout prompts login" finished-at="2026-02-22T19:04:11 IST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_006_GuestCheckoutRequiresLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:11 IST" name="tearDown" finished-at="2026-02-22T19:04:12 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_006_GuestCheckoutRequiresLogin status=SUCCESS method=NegativeTests.TC_NEG_006_GuestCheckoutRequiresLogin()[pri:6, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:12 IST" name="setupDriver" finished-at="2026-02-22T19:04:16 IST" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_007_PaymentWithInvalidCard()[pri:7, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:16 IST" name="TC_NEG_007_PaymentWithInvalidCard" description="TC_NEG_007 - Payment fails with invalid card number" finished-at="2026-02-22T19:04:42 IST" duration-ms="26174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_007_PaymentWithInvalidCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:42 IST" name="tearDown" finished-at="2026-02-22T19:04:43 IST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_007_PaymentWithInvalidCard status=SUCCESS method=NegativeTests.TC_NEG_007_PaymentWithInvalidCard()[pri:7, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:43 IST" name="setupDriver" finished-at="2026-02-22T19:04:47 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_NEG_008_SubscribeWithInvalidEmail()[pri:8, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:04:47 IST" name="TC_NEG_008_SubscribeWithInvalidEmail" description="TC_NEG_008 - Newsletter subscription fails with invalid email" finished-at="2026-02-22T19:05:03 IST" duration-ms="16156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_NEG_008_SubscribeWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NegativeTests@707194ba]" started-at="2026-02-22T19:05:03 IST" name="tearDown" finished-at="2026-02-22T19:05:04 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_NEG_008_SubscribeWithInvalidEmail status=SUCCESS method=NegativeTests.TC_NEG_008_SubscribeWithInvalidEmail()[pri:8, instance:tests.NegativeTests@707194ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NegativeTests -->
+    </test> <!-- Negative_Tests -->
+    <test started-at="2026-02-22T19:05:04 IST" name="Edge_Tests" finished-at="2026-02-22T19:06:28 IST" duration-ms="84273">
+      <class name="tests.EdgeTests">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:00:03 IST" name="setupExtentReports" finished-at="2026-02-22T19:00:04 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:04 IST" name="setupDriver" finished-at="2026-02-22T19:05:08 IST" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_001_AddMaxQuantityToCart()[pri:1, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:08 IST" name="TC_EDG_001_AddMaxQuantityToCart" description="TC_EDG_001 - Add product with very large quantity" finished-at="2026-02-22T19:05:15 IST" duration-ms="6527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_001_AddMaxQuantityToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:15 IST" name="tearDown" finished-at="2026-02-22T19:05:15 IST" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_001_AddMaxQuantityToCart status=SUCCESS method=EdgeTests.TC_EDG_001_AddMaxQuantityToCart()[pri:1, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:15 IST" name="setupDriver" finished-at="2026-02-22T19:05:20 IST" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_002_AddMinQuantityToCart()[pri:2, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:20 IST" name="TC_EDG_002_AddMinQuantityToCart" description="TC_EDG_002 - Add product with minimum quantity of 1" finished-at="2026-02-22T19:05:26 IST" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_002_AddMinQuantityToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:26 IST" name="tearDown" finished-at="2026-02-22T19:05:26 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_002_AddMinQuantityToCart status=SUCCESS method=EdgeTests.TC_EDG_002_AddMinQuantityToCart()[pri:2, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:26 IST" name="setupDriver" finished-at="2026-02-22T19:05:30 IST" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_003_AddSameProductTwice()[pri:3, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:30 IST" name="TC_EDG_003_AddSameProductTwice" description="TC_EDG_003 - Add same product twice, verify quantity totals" finished-at="2026-02-22T19:05:38 IST" duration-ms="7563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_003_AddSameProductTwice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:38 IST" name="tearDown" finished-at="2026-02-22T19:05:38 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_003_AddSameProductTwice status=SUCCESS method=EdgeTests.TC_EDG_003_AddSameProductTwice()[pri:3, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:38 IST" name="setupDriver" finished-at="2026-02-22T19:05:43 IST" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_004_RemoveItemFromCart()[pri:4, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:43 IST" name="TC_EDG_004_RemoveItemFromCart" description="TC_EDG_004 - Remove item from cart and verify empty state" finished-at="2026-02-22T19:05:54 IST" duration-ms="10882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_004_RemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:54 IST" name="tearDown" finished-at="2026-02-22T19:05:54 IST" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_004_RemoveItemFromCart status=SUCCESS method=EdgeTests.TC_EDG_004_RemoveItemFromCart()[pri:4, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:54 IST" name="setupDriver" finished-at="2026-02-22T19:05:59 IST" duration-ms="4623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_005_LongOrderComment()[pri:5, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:05:59 IST" name="TC_EDG_005_LongOrderComment" description="TC_EDG_005 - Enter very long text in order comment field" finished-at="2026-02-22T19:06:18 IST" duration-ms="19324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_005_LongOrderComment -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:06:18 IST" name="tearDown" finished-at="2026-02-22T19:06:19 IST" duration-ms="426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_005_LongOrderComment status=SUCCESS method=EdgeTests.TC_EDG_005_LongOrderComment()[pri:5, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:06:19 IST" name="setupDriver" finished-at="2026-02-22T19:06:23 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="TC_EDG_006_DirectUrlAccessToPayment()[pri:6, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:06:23 IST" name="TC_EDG_006_DirectUrlAccessToPayment" description="TC_EDG_006 - Direct URL access to /payment page" finished-at="2026-02-22T19:06:28 IST" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EDG_006_DirectUrlAccessToPayment -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:06:28 IST" name="tearDown" finished-at="2026-02-22T19:06:28 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_EDG_006_DirectUrlAccessToPayment status=SUCCESS method=EdgeTests.TC_EDG_006_DirectUrlAccessToPayment()[pri:6, instance:tests.EdgeTests@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.EdgeTests@4c39bec8]" started-at="2026-02-22T19:06:28 IST" name="tearDownSuite" finished-at="2026-02-22T19:06:29 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.EdgeTests -->
+    </test> <!-- Edge_Tests -->
+  </suite> <!-- AutomationExercise_Test_Suite -->
+</testng-results>

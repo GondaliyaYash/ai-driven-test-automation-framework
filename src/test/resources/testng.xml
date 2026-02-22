@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    TestNG Suite — AutomationExercise UI Tests
+    Task 2: AI-Assisted UI Test Execution
+    24 Test Cases: 10 Positive | 8 Negative | 6 Edge
+-->
+
+<suite name="AutomationExercise_Test_Suite" verbose="2" parallel="none">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="baseUrl" value="https://automationexercise.com"/>
+
+    <!-- ============================================================ -->
+    <!--  POSITIVE TESTS (TC_POS_001 to TC_POS_010)                    -->
+    <!-- ============================================================ -->
+    <test name="Positive_Tests" preserve-order="true">
+        <classes>
+            <class name="tests.PositiveTests">
+                <methods>
+                    <include name="TC_POS_001_VerifyHomepageLoads"/>
+                    <include name="TC_POS_002_NavigateToProducts"/>
+                    <include name="TC_POS_003_SearchProduct"/>
+                    <include name="TC_POS_004_ViewProductDetails"/>
+                    <include name="TC_POS_005_AddProductToCart"/>
+                    <include name="TC_POS_006_VerifyCartQuantity"/>
+                    <include name="TC_POS_007_ProceedToCheckout"/>
+                    <include name="TC_POS_008_DeliveryAddressPreFilled"/>
+                    <include name="TC_POS_009_PaymentPageLoads"/>
+                    <include name="TC_POS_010_CompletePurchaseFlow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ============================================================ -->
+    <!--  NEGATIVE TESTS (TC_NEG_001 to TC_NEG_008)                    -->
+    <!-- ============================================================ -->
+    <test name="Negative_Tests" preserve-order="true">
+        <classes>
+            <class name="tests.NegativeTests">
+                <methods>
+                    <include name="TC_NEG_001_LoginWithInvalidCredentials"/>
+                    <include name="TC_NEG_002_LoginWithEmptyEmail"/>
+                    <include name="TC_NEG_003_LoginWithEmptyPassword"/>
+                    <include name="TC_NEG_004_RegisterWithExistingEmail"/>
+                    <include name="TC_NEG_005_SearchNonExistentProduct"/>
+                    <include name="TC_NEG_006_GuestCheckoutRequiresLogin"/>
+                    <include name="TC_NEG_007_PaymentWithInvalidCard"/>
+                    <include name="TC_NEG_008_SubscribeWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ============================================================ -->
+    <!--  EDGE / BOUNDARY TESTS (TC_EDG_001 to TC_EDG_006)             -->
+    <!-- ============================================================ -->
+    <test name="Edge_Tests" preserve-order="true">
+        <classes>
+            <class name="tests.EdgeTests">
+                <methods>
+                    <include name="TC_EDG_001_AddMaxQuantityToCart"/>
+                    <include name="TC_EDG_002_AddMinQuantityToCart"/>
+                    <include name="TC_EDG_003_AddSameProductTwice"/>
+                    <include name="TC_EDG_004_RemoveItemFromCart"/>
+                    <include name="TC_EDG_005_LongOrderComment"/>
+                    <include name="TC_EDG_006_DirectUrlAccessToPayment"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ============================================================ -->
+    <!--  Listeners — TestNG default report                             -->
+    <!-- ============================================================ -->
+    <listeners>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+
+</suite>

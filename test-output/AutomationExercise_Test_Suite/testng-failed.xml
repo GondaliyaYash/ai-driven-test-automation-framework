@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExercise_Test_Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="baseUrl" value="https://automationexercise.com"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Positive_Tests(failed)" verbose="2">
+    <classes>
+      <class name="tests.PositiveTests">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="setupExtentReports"/>
+          <include name="TC_POS_008_DeliveryAddressPreFilled"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- tests.PositiveTests -->
+    </classes>
+  </test> <!-- Positive_Tests(failed) -->
+</suite> <!-- Failed suite [AutomationExercise_Test_Suite] -->
