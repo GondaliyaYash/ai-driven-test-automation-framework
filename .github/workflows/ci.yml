@@ -1,0 +1,35 @@
+name: AI Test Automation CI
+
+on:
+  push:
+    branches:
+      - automation-ai-project
+  pull_request:
+    branches:
+      - automation-ai-project
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build project
+        run: mvn clean install -DskipTests
+
+      - name: Run automation tests
+        run: mvn test
+
+      - name: Upload test reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: target/
