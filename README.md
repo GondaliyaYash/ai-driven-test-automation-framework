@@ -1,5 +1,5 @@
 # 🤖 AI-Driven Test Automation Framework
-### Selenium WebDriver + TestNG | Java | Claude AI + GitHub Copilot
+### Selenium WebDriver + TestNG | Java | Claude AI + GitHub Copilot.
 
 ![Tests](https://img.shields.io/badge/Tests-24%2F24%20Passing-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-orange)
